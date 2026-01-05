@@ -1,24 +1,17 @@
-<div align="center">
+<a href="https://freeimage.host/"><img src="https://iili.io/fNYk7zN.png" alt="fNYk7zN.png" border="0" /></a>
+# CORE Protocol
 
-<img src="apps/web/src/assets/axis-logo.png" alt="AXIS Protocol" width="120" />
 
-# AXIS Protocol
 
-![AXIS Protocol](https://img.shields.io/badge/AXIS-Protocol-gold?style=for-the-badge)
-![Solana](https://img.shields.io/badge/Solana-Mainnet-purple?style=for-the-badge)
-![Switchboard](https://img.shields.io/badge/Switchboard-TEE%20Verified-blue?style=for-the-badge)
 
-**The Resolution Layer for Solana**
-
-[Launch App](https://axisoracle.com/app) | [Documentation](https://axisoracle.com/docs) | [Twitter](https://x.com/pivot_oracle) | [GitHub](https://github.com/axis-oracle)
 
 </div>
 
 ---
 
-## What is AXIS?
+## What is CORE?
 
-AXIS Protocol is a **permissionless oracle factory** that enables anyone to deploy custom data feeds on Solana in under 60 seconds. Built on [Switchboard's TEE-verified infrastructure](https://switchboard.xyz), AXIS provides cryptographically-proven, tamper-proof data for DeFi, prediction markets, gaming, and beyond.
+CORE Protocol is a **permissionless oracle factory** that enables anyone to deploy custom data feeds on Solana in under 60 seconds. Built on [Switchboard's TEE-verified infrastructure](https://switchboard.xyz), CORE provides cryptographically-proven, tamper-proof data for DeFi, prediction markets, gaming, and beyond.
 
 ### The Problem
 
@@ -30,7 +23,7 @@ Traditional oracle solutions require:
 
 ### The Solution
 
-AXIS abstracts all complexity into a simple UI:
+CORE abstracts all complexity into a simple UI:
 
 1. **Select a Module** — Choose from Crypto, Token Analytics, Weather, or Esports
 2. **Configure Your Oracle** — Pick the asset, metric, and resolution time
@@ -42,7 +35,7 @@ AXIS abstracts all complexity into a simple UI:
 ## Architecture
 
 ```
-                              AXIS FRONTEND
+                              CORE FRONTEND
               React + Vite + Tailwind + Solana Wallet Adapter
                                   |
                                   v
@@ -112,7 +105,7 @@ Instant settlement data for global esports tournaments.
 
 ### Trusted Execution Environments (TEE)
 
-All AXIS oracles run inside **Intel SGX enclaves** via Switchboard's infrastructure:
+All CORE oracles run inside **Intel SGX enclaves** via Switchboard's infrastructure:
 
 1. **Isolated Execution** — Code runs in hardware-encrypted memory
 2. **Remote Attestation** — Cryptographic proof that code wasn't tampered with
@@ -135,14 +128,7 @@ Every settlement produces:
 
 ## Quick Start
 
-### For Users
 
-1. Visit [axisoracle.com/app](https://axisoracle.com/app)
-2. Connect your Solana wallet (Phantom, Solflare, Backpack)
-3. Verify your wallet with a signature
-4. Select a module and configure your oracle
-5. Pay 0.02 SOL creation fee + gas
-6. Your oracle is live! Copy the public key for integration
 
 ### For Developers
 
@@ -182,7 +168,7 @@ let winner: i64 = result.value.try_into()?;
 ## Project Structure
 
 ```
-axis-protocol/
+CORE-protocol/
 ├── src/
 │   ├── components/
 │   │   ├── modules/          # Oracle creation modules
@@ -312,13 +298,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Links
 
-- **Website**: [axisoracle.com](https://axisoracle.com)
-- **App**: [axisoracle.com/app](https://axisoracle.com/app)
-- **Documentation**: [axisoracle.com/docs](https://axisoracle.com/docs)
-- **Twitter**: [@axis_oracle](https://x.com/axis_oracle)
-- **GitHub**: [github.com/axis-oracle](https://github.com/axis-oracle)
 
 ---
 
